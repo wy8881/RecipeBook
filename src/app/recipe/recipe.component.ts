@@ -10,7 +10,7 @@ import {RecipeService} from "./recipe.service";
 })
 export class RecipeComponent implements OnInit{
 
-  @Input() selectedRecipe: Recipe;
+  selectedRecipe: Recipe;
 
   constructor(private recipeService: RecipeService) {
   }
@@ -22,5 +22,6 @@ export class RecipeComponent implements OnInit{
       }
     );
   }
+
 
 }
