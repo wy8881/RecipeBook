@@ -16,6 +16,7 @@ import {AppRountingModule} from "./app-rounting.module";
 import {Recipe} from "./recipe/recipe.model";
 import {RecipeStartComponent} from "./recipe/recipe-start/recipe-start.component";
 import {RecipeEditComponent} from "./recipe/recipe-edit/recipe-edit.component";
+import {RecipeService} from "./recipe/recipe.service";
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import {RecipeEditComponent} from "./recipe/recipe-edit/recipe-edit.component";
   ],
   providers: [
     provideClientHydration(),
-    ShoppingListService
+    ShoppingListService,
+    RecipeService
   ],
   bootstrap: [AppComponent]
 })
