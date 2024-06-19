@@ -1,0 +1,7 @@
+{
+  "routes": [
+    "/recipes",
+    "/recipes/new",
+    "/shopping-list"
+  ]
+}
